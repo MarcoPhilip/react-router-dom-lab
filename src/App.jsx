@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import NavBar from './components/NavBar/NavBar.jsx'
+import MailboxList from './components/MailboxList/MailboxList.jsx'
+import MailboxForm from './components/MailboxForm/MailboxForm.jsx'
+import MailbocDetails from './components/MailboxDetails/MailboxDetails.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
