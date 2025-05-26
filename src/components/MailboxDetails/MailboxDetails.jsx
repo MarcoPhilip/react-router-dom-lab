@@ -16,7 +16,6 @@ const MailboxDetails = (props) => {
             <h3>Details</h3>
             <p><strong>Boxholder:</strong> {selectedBox.boxOwner}</p>
             <p><strong>Box Size:</strong> {selectedBox.boxSize}</p>
-
         </>
     );
 };
